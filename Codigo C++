@@ -1,0 +1,78 @@
+#include <DHT.h>
+#define pinoDHT 23
+#define modelo DHT22
+#define BUTTONPIN 4       // Botão
+#define LDRPIN 34         // Sensor LDR (analógico)
+#define RELEPIN 21        // Relé que aciona LED azul
+
+const int threshold = 1000; // Limiar de luminosidade
+float umidadeManual = 0.0;
+DHT dht (pinoDHT,modelo);
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+  pinMode(BUTTONPIN, INPUT_PULLUP);
+  pinMode(RELEPIN, OUTPUT);
+  digitalWrite(RELEPIN, LOW);
+
+  Serial.println("Digite a umidade manual no formato: U=65.0");
+  
+}
+
+void loop() {
+  bool acionarRele = false;
+
+  // Entrada manual da umidade via Serial
+  if (Serial.available() > 0) {
+    String entrada = Serial.readStringUntil('\n');
+    entrada.trim();
+    if (entrada.startsWith("U=")) {
+      umidadeManual = entrada.substring(2).toFloat();
+      Serial.print("Umidade manual atualizada: ");
+      Serial.print(umidadeManual);
+      Serial.println(" %");
+    }
+  }
+
+  float h = dht.readHumidity();
+
+  if (isnan(h)) {
+    Serial.println("Falha ao ler o sensor DHT");
+    return;
+  }
+
+  Serial.print("Umidade:");
+  Serial.print(umidadeManual);
+  Serial.print("%\t");
+  h = umidadeManual;
+
+  if(h<70){
+    Serial.println("ALERTA,Baixa Umidade do Solo < 70%, Ligando Bomba");
+    acionarRele = true;
+  } else {
+    Serial.println("Umidade Adequada > 70%");
+  }
+
+
+  // Leitura do botão
+  if (digitalRead(BUTTONPIN) == LOW) {
+    Serial.println("Leitura de PH ");
+
+    int ldrValue = analogRead(LDRPIN);
+    Serial.print("PH  ");
+    Serial.println(ldrValue);
+
+    if (ldrValue > threshold) {
+      Serial.println("PH Em Desacordo Com a Ideal - acionando a bomba + NPK");
+      acionarRele = true;
+    } else {
+      Serial.println("PH Dentro da Normalidade");
+    }
+  }
+
+  // Aciona ou desliga o relé
+  digitalWrite(RELEPIN, acionarRele ? HIGH : LOW);
+
+  delay(5000);
+}
