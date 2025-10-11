@@ -77,7 +77,9 @@ A simulação foi realizada na plataforma [Wokwi](https://wokwi.com), que permit
 4. Observe os alertas e o acionamento do LED azul
 
 ---
-[![Título do vídeo](https://img.youtube.com/vi/ID_DO_VIDEO/0.jpg)](https://youtu.be/6-9CU0H_pJg)
+Video Do Funcionamento no YouTube
+(https://youtu.be/6-9CU0H_pJg)
+
 ## 📚 Referências
 
 - [Embrapa – Cultivo de Milho](https://www.embrapa.br/milho-e-sorgo)
@@ -88,6 +90,7 @@ A simulação foi realizada na plataforma [Wokwi](https://wokwi.com), que permit
 ## 👨‍💻 Autoria
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
+
 
 
 
