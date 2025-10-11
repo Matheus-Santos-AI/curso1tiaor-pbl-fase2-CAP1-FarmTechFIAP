@@ -5,7 +5,7 @@
 #define LDRPIN 34         // Sensor LDR (analógico)
 #define RELEPIN 21        // Relé que aciona LED azul
 
-const int threshold = 1000; // Limiar de luminosidade
+const int threshold = 1000; // PH ideal
 float umidadeManual = 0.0;
 DHT dht (pinoDHT,modelo);
 
@@ -64,7 +64,7 @@ void loop() {
     Serial.println(ldrValue);
 
     if (ldrValue > threshold) {
-      Serial.println("PH Em Desacordo Com a Ideal - acionando a bomba + NPK");
+      Serial.println("PH Em Desacordo Com o Ideal, PH ideal = 1000 equivalente a 6,5 - acionando a bomba + NPK");
       acionarRele = true;
     } else {
       Serial.println("PH Dentro da Normalidade");
@@ -75,4 +75,3 @@ void loop() {
   digitalWrite(RELEPIN, acionarRele ? HIGH : LOW);
 
   delay(5000);
-}
