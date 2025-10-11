@@ -2,7 +2,7 @@
 
 Projeto desenvolvido pelos alunos da **turma 1TIAOR** do curso de **Inteligência Artificial** da **Faculdade FIAP**.
 
-![Simulação do circuito no Wokwi]("C:\Users\Pichau\Desktop\asset\projeto sensores.png")
+
 
 ## 📘 Descrição Geral
 
@@ -88,3 +88,4 @@ A simulação foi realizada na plataforma [Wokwi](https://wokwi.com), que permit
 ## 👨‍💻 Autoria
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
+
