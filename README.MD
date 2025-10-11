@@ -2,7 +2,7 @@
 
 Projeto desenvolvido pelos alunos da **turma 1TIAOR** do curso de **Inteligência Artificial** da **Faculdade FIAP**.
 
-![Simulação do circuito](https://raw.githubusercontent.com/Matheus-Santos-IA/curso1tiaor-pbl-fase2-CAP1-FarmTechFIAP/Imagem-Modelo.png)
+![Simulação do circuito](https://raw.githubusercontent.com/Matheus-Santos-AI/curso1tiaor-pbl-fase2-CAP1-FarmTechFIAP/blob/main/Imagem-Modelo.png)
 
 ## 📘 Descrição Geral
 
@@ -88,5 +88,6 @@ A simulação foi realizada na plataforma [Wokwi](https://wokwi.com), que permit
 ## 👨‍💻 Autoria
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
+
 
 
