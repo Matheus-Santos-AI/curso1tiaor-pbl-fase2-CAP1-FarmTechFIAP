@@ -90,9 +90,10 @@ Video Do Funcionamento no YouTube
 ## 👨‍💻 Autoria
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
-Matheus de Souza Santos rm566901
-Paulo Ribeiro 
-Victor 
+-Matheus de Souza Santos rm566901
+-Paulo Ribeiro 
+-Victor 
+
 
 
 
