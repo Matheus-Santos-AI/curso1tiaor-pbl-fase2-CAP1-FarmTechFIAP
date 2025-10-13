@@ -1,6 +1,26 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
 # 🌽 Projeto de Simulação de Irrigação e Equilíbrio de pH do Solo com ESP32
 
-Projeto desenvolvido pelos alunos da **turma 1TIAOR** do curso de **Inteligência Artificial** da **Faculdade FIAP**.
+
+## 👨‍🎓 Integrantes: 
+/Matheus de Souza Santos rm566901
+/Paulo Roberto Silva Amaral Ribeiro
+/Victor Oliveira Fedeli Tate
+/Ricardo
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- Prof.Ana Cristina
+### Coordenador(a)
+- André Godoi Chiovanato
+
+
 
 ![Simulação do circuito](https://github.com/Matheus-Santos-AI/curso1tiaor-pbl-fase2-CAP1-FarmTechFIAP/raw/main/Imagem-Modelo.png)
 
@@ -91,9 +111,8 @@ Video Do Funcionamento no YouTube
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
 
-/Matheus de Souza Santos rm566901
-/Paulo Roberto Silva Amaral Ribeiro
-/Victor Oliveira Fedeli Tate
+
+
 
 
 
