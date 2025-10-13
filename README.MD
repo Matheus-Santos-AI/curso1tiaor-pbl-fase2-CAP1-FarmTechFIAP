@@ -9,10 +9,10 @@
 
 
 ## 👨‍🎓 Integrantes: 
-/Matheus de Souza Santos rm566901
-/Paulo Roberto Silva Amaral Ribeiro
-/Victor Oliveira Fedeli Tate
-/Ricardo
+- Matheus de Souza Santos 
+- Paulo Roberto Silva Amaral Ribeiro
+- Victor Oliveira Fedeli Tate
+- Ricardo José Amorin Campos
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -110,6 +110,7 @@ Video Do Funcionamento no YouTube
 ## 👨‍💻 Autoria
 
 Projeto acadêmico desenvolvido pelos alunos da **1TIAOR – FIAP** no curso de **Inteligência Artificial**.
+
 
 
 
