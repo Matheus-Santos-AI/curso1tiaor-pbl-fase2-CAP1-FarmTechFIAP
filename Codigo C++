@@ -1,3 +1,10 @@
+// Grupo:
+// Matheus de Souza Santos
+// Ricardo José Amorim Campos
+// Victor Oliveira Fedeli Tate
+// Paulo Roberto Silva Amaral Ribeiro Junior
+
+
 #include <DHT.h>
 #define pinoDHT 23
 #define modelo DHT22
